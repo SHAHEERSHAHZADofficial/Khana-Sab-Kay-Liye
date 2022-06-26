@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "firebaseapp",
-    "slug": "firebaseapp",
+    "name": "Khana-Sab-Kay-Liye",
+    "slug": "Khana-Sab-Kay-Liye",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/images/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shaheershahzad.KhanaSabKayLiye"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/images/logo.png",
         "backgroundColor": "#FFFFFF"
-      }
+        
+       
+      },
+      "versionCode": 1,
+      "package": "com.shaheershahzad.KhanaSabKayLiye"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/images/logo.png"
     }
   }
 }
